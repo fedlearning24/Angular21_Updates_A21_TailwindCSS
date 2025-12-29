@@ -1,3 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import "tailwindcss";
+
+.main-container{
+    @apply flex justify-center items-center h-screen w-full
+}
+.login-form{
+    @apply lg:w-1/4 w-1/2 p-4 bg-white rounded shadow-md
+}
+.login-label{
+    @apply block text-gray-700 text-sm font-bold mb-2
+}
+.login-input{
+    @apply block w-full p-2 mt-2 border border-gray-300 rounded
+}
+.login-ul{
+    @apply text-red-600 text-sm mt-2
+}
+.login-btn{
+    @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded
+}
